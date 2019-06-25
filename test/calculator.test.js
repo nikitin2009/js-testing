@@ -9,9 +9,9 @@ test('subtracts two numbers', () => {
 })
 
 test('divides two numbers', () => {
-  expect(calculator.add(9, 3)).toBe(3);
+  expect(calculator.divide(9, 3)).toBe(3);
 })
 
 test('multiplies two numbers', () => {
-  expect(calculator.add(4, 3)).toBe(12);
+  expect(calculator.multiply(4, 3)).toBe(12);
 })
